@@ -19,6 +19,6 @@ export const PostInfo = ({ post }) => (
 
     <hr />
 
-    <CommentList comments={post.comments} />
+    <CommentList comments={post.comment} />
   </div>
 );
